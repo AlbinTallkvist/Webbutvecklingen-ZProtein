@@ -1,18 +1,19 @@
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: rgb(33, 33, 36);
+    background-color: rgb(27, 31, 40);
     place-items: center;
+    font-size: large;
 }
 
 header img {
-    width: 30%;
+    width: 20%;
     filter: invert(75%);
 } 
 
@@ -26,17 +27,29 @@ a:hover {
 }
 
 footer {
-    background-color: rgb(33, 33, 36);
+    background-color: rgb(27, 31, 40);
     color: white;
 }
 
 header {text-align: center;}
 footer {text-align: center;}
 
+h2 {
+    text-align: center;
+    background-color: rgb(88,38,83);
+    color: white;
+    font-size: medium;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(88,38,83);
+}
+
 #FooterBred
 {
     width: 100%;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(27, 31, 40);
     color: white;
     letter-spacing: 1px;
     display: grid;
