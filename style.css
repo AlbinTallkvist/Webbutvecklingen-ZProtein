@@ -10,6 +10,7 @@ header {
     background-color: rgb(27, 31, 40);
     place-items: center;
     font-size: large;
+
 }
 
 header img {
@@ -112,4 +113,23 @@ h1 {
     {
         padding: 0 25px;
     }
+}
+
+#Map
+{
+    padding: 25px;
+    display: grid;
+    place-items: center;
+}
+
+.ShopNowGrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    gap: 10px
+}
+
+.ShopNowGrid img {
+    width: 60%;
 }
